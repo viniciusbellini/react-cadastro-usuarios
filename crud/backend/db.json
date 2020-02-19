@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Arthur Oliveira",
+      "email": "aoliveira@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Maria Julia da Silva",
+      "email": "mjds@empresa.com"
+    },
+    {
+      "name": "CARLOS VINICIUS TRINDADE BELLINI",
+      "email": "viniciusbellini@gmail.com",
+      "id": 3
+    }
+  ]
+}
