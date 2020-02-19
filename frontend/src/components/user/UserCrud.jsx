@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 import Main from '../template/Main'
 import axios from 'axios'
+import Button from '@material-ui/core/Button'
+import SaveIcon from '@material-ui/icons/Save'
+import CancelIcon from '@material-ui/icons/Cancel'
 
 const headerProps = {
     icon: "users",
@@ -86,6 +89,14 @@ export default class UserCrud extends Component {
                             Salvar
                         </button>
 
+                        <Button 
+                            variant="contained" 
+                            color="primary"
+                            startIcon={<SaveIcon />}
+                            onClick={e => this.save(e)}>
+                            Salvar
+                        </Button>
+                        
                         <button className="btn btn-secondary ml-2"
                             onClick={e => this.clear(e)}>
                             Cancelar
